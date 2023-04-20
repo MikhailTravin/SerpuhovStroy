@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Контакты</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230403121440">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="contacts">
+	<div class="wrapper">
+		<header data-scroll class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__menu">
+						<ul>
+							<li><a href="#">Полезные статьи</a></li>
+							<li><a href="#">Калькулятор объема</a></li>
+							<li><a href="#">Услуги</a></li>
+						</ul>
+					</div>
+					<div class="top-header__contacts">
+						<a href="#" class="top-header__phone _icon-whatsapp">
+							+7 977 128-6560
+						</a>
+						<a href="#" data-popup="#phone" class="top-header__button button-border">Обратный звонок</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<a data-da=".burger-menu__content, 991.98" href="#" class="bottom-header__logo">
+						<img data-src="img/icons/logo.svg" alt="">
+					</a>
+					<div class="bottom-header__menu-materials">
+						<ul>
+							<li><a data-text="Бетон" href="#">Бетон</a></li>
+							<li><a data-text="Грунт" href="#">Грунт</a></li>
+							<li><a data-text="Щебень" href="#">Щебень</a></li>
+							<li><a data-text="Песок" href="#">Песок</a></li>
+						</ul>
+					</div>
+					<div class="bottom-header__menu">
+						<ul>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<button type="button" class="bottom-header__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+			<div class="header__menu-burger burger-menu">
+				<nav class="burger-menu__body">
+					<div class="burger-menu__content">
+						<ul>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Калькулятор объема</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Реквизиты</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Наши работы</a></li>
+							<li><a href="#">Полезные статьи</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main class="page">
+			<div class="breadcrambs">
+				<div class="breadcrambs__container">
+					<ul>
+						<li><a href="#">Главная<span>:</span></a></li>
+						<li><span>Контакты</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="page__contacts contacts">
+				<div class="contacts__container">
+					<h1 class="contacts__h1">Наши контакты</h1>
+					<div class="contacts__contact contact">
+						<div class="contact__column">
+							<div class="contact__item">
+								<div class="contact__icon _icon-envelope-check"></div>
+								<div class="contact__text">Пишите</div>
+								<a href="#" class="contact__link">zakaz@serpuhovstroy.ru</a>
+							</div>
+						</div>
+						<div class="contact__column">
+							<div class="contact__item">
+								<div class="contact__icon _icon-telephone-forward"></div>
+								<div class="contact__text">Звоните</div>
+								<a href="tel:79771286560" class="contact__link">+7 977 128-6560</a>
+							</div>
+						</div>
+						<div class="contact__column">
+							<div class="contact__item">
+								<div class="contact__icon _icon-chat"></div>
+								<div class="contact__text">Стучитесь</div>
+								<span class="contact__subtext">
+									<a href="#" class="contact__link">whatsapp</a>
+									или
+									<a href="#" class="contact__link">telegramm</a>
+								</span>
+							</div>
+						</div>
+						<div class="contact__column">
+							<div class="contact__item">
+								<div class="contact__icon _icon-pin-map-fill"></div>
+								<div class="contact__text">Приезжайте</div>
+								<span class="contact__subtext">Московская<br>
+									область, г.Серпухов,<br> ул. Ворошилова, д.<br> 133/16, оф.8
+								</span>
+							</div>
+						</div>
+					</div>
+					<form action="#" class="contacts__form form-contacts">
+						<div class="form-contacts__body">
+							<div class="form-contacts__title">
+								Задавайте
+								<span>вопросы</span>
+							</div>
+							<div class="form-contacts__content">
+								<div class="form-contacts__top">
+									<div class="form-contacts__inputs">
+										<div class="form-contacts__input">
+											<input type="name" name="form[]" placeholder="Ваше имя?">
+										</div>
+										<div class="form-contacts__input">
+											<input data-validate data-required="email" type="email" name="form[]" placeholder="Ваш email (обязательно)">
+										</div>
+									</div>
+									<div class="form-contacts__inputs">
+										<div class="form-contacts__textarea">
+											<textarea placeholder="Опишите ваш вопрос или предложение"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="form-contacts__bottom">
+									<div class="form-contacts__checkbox checkbox">
+										<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="3" name="form[3]">
+										<label for="c_3" class="checkbox__label"></label>
+										<span class="checkbox__text-form">
+											Нажимая кнопку, я соглашаюсь на обработку персональных данных
+										</span>
+									</div>
+									<button type="submit" class="form-contacts__button button">Отправить</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div id="map" class="contacts__map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2292.933829951791!2d37.43571861772999!3d54.92163326400508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4135115e85921ebf%3A0x99349eca2b7129a0!2z0YPQuy4g0JLQvtGA0L7RiNC40LvQvtCy0LAsIDEzMy8xNiwg0KHQtdGA0L_Rg9GF0L7Qsiwg0JzQvtGB0LrQvtCy0YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGPLCAxNDIyMDM!5e0!3m2!1sru!2sby!4v1680291085793!5m2!1sru!2sby" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<a href="#" class="top-footer__logo">
+						<img data-src="img/icons/logo.svg" alt="">
+					</a>
+					<div class="top-footer__menu">
+						<div class="top-footer__column">
+							<div class="top-footer__title">Доставим</div>
+							<ul>
+								<li><a href="#">Песок</a></li>
+								<li><a href="#">Щебень</a></li>
+								<li><a href="#">Бетон</a></li>
+								<li><a href="#">Грунт</a></li>
+							</ul>
+						</div>
+						<div class="top-footer__column">
+							<div class="top-footer__title">Также:</div>
+							<ul>
+								<li><a href="#">Вывезем грунт</a></li>
+								<li><a href="#">Вывезем снег</a></li>
+								<li><a href="#">Выкопаем котлаваны</a></li>
+								<li><a href="#">Отсыпем дороги</a></li>
+							</ul>
+						</div>
+						<div class="top-footer__column">
+							<div class="top-footer__title">О нас</div>
+							<ul>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Реквизиты</a></li>
+								<li><a href="#">Наши работы</a></li>
+								<li><a href="#">Отзывы</a></li>
+							</ul>
+						</div>
+						<div class="top-footer__column">
+							<div class="top-footer__title">Полезное</div>
+							<ul>
+								<li><a href="#">Статьи</a></li>
+								<li><a href="#">Калькулятор</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__copy">
+						2010 - 2023 Серпухов строй. Доставка песка щебня Серпухов
+					</div>
+					<a href="#" class="bottom-footer__policy">
+						Политика конфеденциальности
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="phone" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><span>Закрыть</span></button>
+				<div class="popup__text">
+					<form action="#" class="main-home__form form-main-home">
+						<div class="form-main-home__input">
+							<input data-validate id="tel-popup" type="tel" name="form[]" placeholder="+7 (_ _ _) _ _ _-_ _-_ _">
+						</div>
+						<button type="submit" class="form-main-home__button button">Позвонитие мне</button>
+						<div class="form-main-home__checkbox checkbox">
+							<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="2" name="form[2]">
+							<label for="c_2" class="checkbox__label"></label>
+							<span class="checkbox__text">
+								Нажимая кнопку, я соглашаюсь
+								на обработку персональных данных
+							</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="submit-calculator" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><span>Закрыть</span></button>
+				<div class="popup__text">
+					<form action="#" class="main-home__form form-main-home">
+						<div class="form-main-home__input">
+							<div class="result-calculator__total">
+								<div class="result-calculator__total-block">
+									<div class="result-calculator__text">Объем:</div>
+									<div class="result-calculator__total-content">
+										<div id="volume-popup" class="result-calculator__volume">0</div>
+										<div class="result-calculator__unit">м<span>3</span></div>
+									</div>
+								</div>
+								<div class="result-calculator__total-block">
+									<div class="result-calculator__text">Количество машин:</div>
+									<div class="result-calculator__total-content">
+										<div id="auto-popup" class="result-calculator__auto">0</div>
+										<div class="result-calculator__unit">шт</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-main-home__input">
+							<input data-validate id="tel-popup" type="tel" name="form[]" placeholder="+7 (_ _ _) _ _ _-_ _-_ _">
+						</div>
+						<button type="submit" class="form-main-home__button button">Позвонитие мне</button>
+						<div class="form-main-home__checkbox checkbox">
+							<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="4" name="form[4]">
+							<label for="c_4" class="checkbox__label"></label>
+							<span class="checkbox__text">
+								Нажимая кнопку, я соглашаюсь
+								на обработку персональных данных
+							</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230403121440"></script>
+</body>
+
+</html>
